@@ -1,7 +1,7 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "小凌脚本-1.",
+    Title = "小凌脚本-1.4",
     Text = "加载....已开启反挂机",
     Duration = 5, 
 })
@@ -13,7 +13,7 @@ print("反挂机")
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
-local Window = OrionLib:MakeWindow({Name = "小凌脚本-1.3", HidePremium = false, SaveConfig = true,IntroText = "感谢"," "..game.Players.LocalPlayer.Name.."执行小凌脚本", ConfigFolder = "热烈欢迎"})
+local Window = OrionLib:MakeWindow({Name = "小凌脚本-1.4", HidePremium = false, SaveConfig = true,IntroText = "感谢您执行小凌脚本", ConfigFolder = "热烈欢迎"})
 local about = Window:MakeTab({
     Name = "信息-XL",
     Icon = "rbxassetid://4483345998",
@@ -564,7 +564,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-  Name = "好玩的",
+  Name = "离开-XL",
   Icon = "rbxassetid://4483345998",
   PremiumOnly = false
   })
@@ -572,12 +572,12 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "非常好玩千万别点",
 	Callback = function()
-game.Players.LocalPlayer:Kick('都说了太好玩了')
+game.Players.LocalPlayer:Kick('离开...Ok')
 end
 })
 
 local Tab = Window:MakeTab({
-    Name = "监狱人生",
+    Name = "监狱人生-XL",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -611,7 +611,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-  Name = "脚本大全2",
+  Name = "脚本大全2-XL",
   Icon = "rbxassetid://4483345998",
   PremiumOnly = false
   })
@@ -713,7 +713,7 @@ player:AddButton({
 })
 
 local player = Window:MakeTab({
-	Name = "视觉",
+	Name = "视觉-XL",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -769,7 +769,7 @@ player:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "RobloxUI",
+	Name = "RobloxUI-XL",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -789,7 +789,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-    Name = "伐木脚本",
+    Name = "伐木脚本-XL",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -802,7 +802,7 @@ Tab:AddButton({
       })
 
 local Tab = Window:MakeTab({
-	Name = "通用2",
+	Name = "通用2-XL",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -1015,7 +1015,7 @@ end
 })
 
 local Tab = Window:MakeTab({
-  Name = "私人定制脚本",
+  Name = "私人定制脚本-XL",
   Icon = "rbxassetid://4483345998",
   PremiumOnly = false
   })
@@ -1095,7 +1095,7 @@ Tab:AddButton({
   end
 })
 
-local Tab = Window:MakeTab({	Name = "公告/添加的脚本",	Icon = "rbxassetid://7734068321",	PremiumOnly = false})
+local Tab = Window:MakeTab({	Name = "公告/添加的脚本-XL",	Icon = "rbxassetid://7734068321",	PremiumOnly = false})
 Tab:AddButton({
 	Name = "缝合！",
 	Callback = function()
@@ -1277,3 +1277,4 @@ Tab:AddButton({
 })
 Tab:AddParagraph("以后就更新1.4(云端更新学会了)")
 Tab:AddParagraph("感谢小云教我云端更新mua~")
+Tab:AddParagraph("补丁和修改ok？")
