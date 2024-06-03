@@ -1,7 +1,7 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "小凌脚本-1.3",
+    Title = "小凌脚本-1.",
     Text = "加载....已开启反挂机",
     Duration = 5, 
 })
@@ -1251,3 +1251,29 @@ Tab:AddButton({
     Cike_V2 = "作者_神罚"SheFa = "刺客群637340150"loadstring(game:HttpGet(('https://raw.githubusercontent.com/WDQi/SF/main/%E7%9C%8B%E4%BD%A0M.txt')))()
   end
 })
+Tab:AddButton({
+  Name = "静新脚本修复",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/jingxinjiaoben"))()
+  end
+})
+Tab:AddButton({
+  Name = "星云",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E5%85%B6%E4%BB%96%E5%9B%BD%E5%86%85%E8%84%9A%E6%9C%AC/%E6%98%9F%E7%A9%BA%E8%84%9A%E6%9C%AC/MoonSecV3.lua"))()
+  end
+})
+Tab:AddButton({
+  Name = "fofo",
+  Callback = function ()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\102\117\122\101\110\97\110\48\48\47\102\111\102\111\108\105\110\110\105\47\109\97\105\110\47\102\111\102\111\37\69\70\37\66\67\37\56\56\37\69\57\37\57\67\37\57\54\37\69\54\37\66\65\37\66\65\85\73\37\69\70\37\66\67\37\56\57\34\41\41\40\41")()
+  end
+})
+Tab:AddButton({
+  Name = "踏空脚本",
+  Callback = function ()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+  end
+})
+Tab:AddParagraph("以后就更新1.4(云端更新学会了)")
+Tab:AddParagraph("感谢小云教我云端更新mua~")
